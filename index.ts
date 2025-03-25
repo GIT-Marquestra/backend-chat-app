@@ -24,7 +24,7 @@ app.use("/user", userRouter);
 
 async function listen(){
     //@ts-expect-error: do not know what to do here
-    await mongoose.connect(process.env.MONGO_URL, { useNewUrlParser: true, useUnifiedTopology: true })
+    await mongoose.connect(process.env.MONGO_URL)
     app.listen(port, () => {
         console.log(`Listening on port: ${port}`)
     }) 
