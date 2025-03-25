@@ -1,0 +1,1 @@
+{"root":["./config.ts","./db.ts","./index.ts","./middlewares/user.ts","./routes/user.ts"],"errors":true,"version":"5.7.2"}
