@@ -6,7 +6,7 @@ const app = express()
 app.use(express.json())
 dotenv.config();
 
-const { userRouter } = require("./routes/user")
+import { userRouter } from "./routes/user"
 
 const corsOptions = {
 
@@ -16,7 +16,6 @@ const corsOptions = {
 
 };
 
-console.log('hi there')
 
 app.use(cors(corsOptions));
 const port = 3000;
