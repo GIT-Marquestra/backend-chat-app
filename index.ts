@@ -7,7 +7,7 @@ app.use(express.json())
 dotenv.config();
 
 import { userRouter } from "./routes/user"
-
+// options
 const corsOptions = {
 
     origin: "https://frontend-chat-app-on7h.vercel.app", 
