@@ -10,7 +10,7 @@ import { userRouter } from "./routes/user"
 // options
 const corsOptions = {
 
-    origin: "https://frontend-chat-app-on7h.vercel.app", 
+    origin: "*", 
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE", 
     credentials: true, 
 
