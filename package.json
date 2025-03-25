@@ -5,21 +5,14 @@
   "scripts": {
     "start": "node ./dist/index.js",
     "clean": "rimraf ./dist",
-    "build": "npm run clean && tsc"
+    "build": "npm run clean && tsc",
+    "dev": "nodemon --exec ts-node src/index.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@types/bcrypt": "^5.0.2",
-    "@types/cors": "^2.8.17",
-    "@types/dotenv": "^6.1.1",
-    "@types/express": "^5.0.0",
-    "@types/jsonwebtoken": "^9.0.7",
-    "@types/mongoose": "^5.11.96",
-    "@types/uuid": "^10.0.0",
-    "@types/ws": "^8.5.13",
     "bcrypt": "^5.1.1",
     "cloudinary": "^2.5.1",
     "cors": "^2.8.5",
@@ -28,15 +21,23 @@
     "http": "^0.0.1-security",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.9.2",
-    "nodemon": "^3.1.9",
-    "types": "file:../../../../../../../../ws",
-    "typescript": "^5.7.2",
-    "uuid": "^11.0.3",
+    "uuid": "^9.0.1",
     "ws": "^8.18.0",
     "zod": "^3.24.1"
   },
   "devDependencies": {
-    "rimraf": "^6.0.1",
-    "ts-node": "^10.9.2"
+    "@types/bcrypt": "^5.0.2",
+    "@types/cors": "^2.8.17",
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^5.0.0",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^20.11.30",
+    "@types/uuid": "^9.0.8",
+    "@types/ws": "^8.5.10",
+    "nodemon": "^3.1.0",
+    "rimraf": "^5.0.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
   }
 }
