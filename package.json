@@ -1,7 +1,7 @@
 {
   "name": "chatbackend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "start": "node ./dist/index.js",
     "clean": "rimraf ./dist",
